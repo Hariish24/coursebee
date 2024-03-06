@@ -1,0 +1,18 @@
+.form-box h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #3c00a0;
+    position: relative;
+}
+.form-box h2::after{
+    content: '';
+    width: 90px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00a0;
+    position: absolute;
+    bottom: -10px;
+    left: 0 10%;
+    transform: translateX(-115%);
+}
